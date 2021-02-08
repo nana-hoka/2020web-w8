@@ -21,7 +21,10 @@
         zoom: 18,
         center: {lat: 48.8583701, lng: 2.2944813},
         mapTypeId: google.maps.MapTypeId.TERRAIN,
-        disableDefaultUI: true
+        disableDefaultUI: true,
+        zoomControl: true,
+        mapTypeControl: true,
+        scaleControl: true
       }
       var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
       
